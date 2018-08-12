@@ -70,4 +70,3 @@ we have our specific guidelines regarding Official Device, Template, Gerrit etc.
 - [Gerrit Manual for AospExtended OS](http://gerrit.aospextended.com/Documentation/intro-user.html) 
 - [AospExtended Gallery](https://aospextended.imgur.com/) 
 - [Facebook page!](https://www.facebook.com/aospextended/) 
-
