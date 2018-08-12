@@ -2,6 +2,14 @@
 <manifest>
   <project path="manifest" name="manifest" remote="AospExt" />
   <project path="build/make" name="platform_build" remote="AospExt" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    <linkfile src="core" dest="build/core" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <linkfile src="target" dest="build/target" />
+    <linkfile src="tools" dest="build/tools" />
+  </project>
   <project path="frameworks/base" name="platform_frameworks_base" remote="AospExt" />
   <project path="packages/apps/Settings" name="platform_packages_apps_Settings" groups="pdk-fs" remote="AospExt" />
   <project path="packages/apps/Extensions" name="platform_packages_apps_Extensions" remote="AospExt" />
