@@ -6,7 +6,7 @@
   <project path="packages/apps/Settings" name="platform_packages_apps_Settings" groups="pdk-fs" remote="AospExt" />
   <project path="packages/apps/Extensions" name="platform_packages_apps_Extensions" remote="AospExt" />
   <project path="vendor/aosp" name="platform_vendor_aosp" remote="AospExt" />
-  <project name="AospExt/device_oneplus_enchilada" path="device/oneplus/enchilada" remote="AospExt" />
-  <project name="AospExt/device_oneplus_sdm845-common" path="device/oneplus/sdm845-common" remote="AospExt" />
+  <project name="device_oneplus_enchilada" path="device/oneplus/enchilada" remote="AospExt" />
+  <project name="device_oneplus_sdm845-common" path="device/oneplus/sdm845-common" remote="AospExt" />
   <project name="cranium_kernel_enchilada" path="kernel/oneplus/sdm845" remote="AospExt" />
 </manifest>
